@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Book Title</title>
 
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #cover {
+            background: #111;
+            color: white;
+        }
+
+        #cover img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        #description {
+            background: #f4f4f4;
+        }
+
+        #author {
+            background: #ddd;
+        }
+
+        #buy {
+            background: #222;
+            color: white;
+        }
+
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            background: gold;
+        }
+
+        button:hover {
+            background: orange;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- COVER -->
+    <section id="cover">
+        <h1>Your Book Title</h1>
+        <img src="cover.jpg" alt="Book Cover">
+        <p>Scroll to learn more ↓</p>
+    </section>
+
+    <!-- DESCRIPTION -->
+    <section id="description">
+        <h2>Description</h2>
+        <p>
+            This is where your book description goes. Hook the reader with something
+            interesting, mysterious, or exciting.
+        </p>
+    </section>
+
+    <!-- AUTHOR -->
+    <section id="author">
+        <h2>About the Author</h2>
+        <p>
+            Write about yourself here. Your background, inspiration, or why you wrote this book.
+        </p>
+    </section>
+
+    <!-- BUY -->
+    <section id="buy">
+        <h2>Get Your Copy</h2>
+        <a href="https://your-buy-link.com" target="_blank">
+            <button>Buy Now</button>
+        </a>
+    </section>
+
+</body>
+</html>
